@@ -7,7 +7,7 @@
 #   Character.create(name: "Luke", movie: movies.first)
 
 print "Seeding...\n"
-# Restaurants
+Restaurants
 Restaurant.create!(name: 'Sottocasa NYC', address: '298 Atlantic Ave, Brooklyn, NY 11201')
 Restaurant.create!(name: 'PizzArte', address: '69 W 55th St, New York, NY 10019')
 Restaurant.create!(name: 'Ichiraku', address: '69 W 55th St, Konoha, KH 10019')
@@ -24,4 +24,14 @@ Pizza.create!(name: 'Rusticana', ingredients: "Tomato sauce, Buffalo ricotta, Oy
 Pizza.create!(name: 'Quattro Stationi', ingredients: "Four Seasons Pizza with Tomato Sauce, Mozzarella, Parmesan, Basil, Mushrooms, Artichokes, Cooked ham, Olives, Olive oil")
 Pizza.create!(name: 'Vier Käse', ingredients: "Four cheese with tomato sauce, Mozzarella, Parmigiano Reggiano, Gorgonzola and Pecorino")
 
+#restaurant_pizza
+RestaurantPizza.create!(price: 21, restaurant_id: 6, pizza_id: 10)
+RestaurantPizza.create!(price: 23, restaurant_id: 7, pizza_id: 11)
+RestaurantPizza.create!(price: 19, restaurant_id: 8, pizza_id: 12)
+RestaurantPizza.create!(price: 20, restaurant_id: 9, pizza_id: 13)
+RestaurantPizza.create!(price: 17, restaurant_id: 10, pizza_id: 14)
+RestaurantPizza.create!(price: 27, restaurant_id: 6, pizza_id: 15)
+RestaurantPizza.create!(price: 16, restaurant_id: 7, pizza_id: 16)
+RestaurantPizza.create!(price: 29, restaurant_id: 8, pizza_id: 17)
+RestaurantPizza.create!(price: 26, restaurant_id: 9, pizza_id: 18)
 print "Done\n"
