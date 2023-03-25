@@ -7,7 +7,7 @@
 #   Character.create(name: "Luke", movie: movies.first)
 
 print "Seeding...\n"
-Restaurants
+#Restaurants
 Restaurant.create!(name: 'Sottocasa NYC', address: '298 Atlantic Ave, Brooklyn, NY 11201')
 Restaurant.create!(name: 'PizzArte', address: '69 W 55th St, New York, NY 10019')
 Restaurant.create!(name: 'Ichiraku', address: '69 W 55th St, Konoha, KH 10019')
