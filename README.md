@@ -17,6 +17,7 @@ The ER Diagram below illustrates the above relationships:
 ### Setup Requirements
 - Operating System: Any UNIX based Operating System should suffice.
 - Ruby installed on your system(version 2.7.3 and above).
+- Rails (version 7 and above)
 - Code editor/IDE to view and/or contribute to the project(preferably VScode or RubyMine IDE).
 - Git installed on your system.
 
