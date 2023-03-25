@@ -25,13 +25,13 @@ Pizza.create!(name: 'Quattro Stationi', ingredients: "Four Seasons Pizza with To
 Pizza.create!(name: 'Vier Käse', ingredients: "Four cheese with tomato sauce, Mozzarella, Parmigiano Reggiano, Gorgonzola and Pecorino")
 
 #restaurant_pizza
-RestaurantPizza.create!(price: 21, restaurant_id: 6, pizza_id: 10)
-RestaurantPizza.create!(price: 23, restaurant_id: 7, pizza_id: 11)
-RestaurantPizza.create!(price: 19, restaurant_id: 8, pizza_id: 12)
-RestaurantPizza.create!(price: 20, restaurant_id: 9, pizza_id: 13)
-RestaurantPizza.create!(price: 17, restaurant_id: 10, pizza_id: 14)
-RestaurantPizza.create!(price: 27, restaurant_id: 6, pizza_id: 15)
-RestaurantPizza.create!(price: 16, restaurant_id: 7, pizza_id: 16)
-RestaurantPizza.create!(price: 29, restaurant_id: 8, pizza_id: 17)
-RestaurantPizza.create!(price: 26, restaurant_id: 9, pizza_id: 18)
+RestaurantPizza.create!(price: 21, restaurant_id: 1, pizza_id: 1)
+RestaurantPizza.create!(price: 23, restaurant_id: 2, pizza_id: 2)
+RestaurantPizza.create!(price: 19, restaurant_id: 3, pizza_id: 3)
+RestaurantPizza.create!(price: 20, restaurant_id: 4, pizza_id: 4)
+RestaurantPizza.create!(price: 17, restaurant_id: 5, pizza_id: 5)
+RestaurantPizza.create!(price: 27, restaurant_id: 1, pizza_id: 6)
+RestaurantPizza.create!(price: 16, restaurant_id: 2, pizza_id: 7)
+RestaurantPizza.create!(price: 29, restaurant_id: 3, pizza_id: 8)
+RestaurantPizza.create!(price: 26, restaurant_id: 4, pizza_id: 9)
 print "Done\n"
