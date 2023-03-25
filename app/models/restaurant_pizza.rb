@@ -4,4 +4,12 @@ class RestaurantPizza < ApplicationRecord
 
   validates :price, presence: true
   validates :price, numericality: {in: 1..30}
+
+  #pizza id must be between 10 and 27 since those are all the pizzas we have at the moment.
+  validates :pizza_id, presence: true
+  validates :pizza_id, numericality: {in: 10..27}
+
+  # restaurant_id must be between 6 and 10 since those are all the restaurants we have at the moment
+  validates :restaurant_id, presence: true
+  validates :restaurant_id, numericality: {in: 6..10}
 end
